@@ -106,7 +106,7 @@ export default {
 .box3 {
   position: absolute;
   bottom: 20px;
-  left: 117px;
+  left: 135px;
 }
 .p1 {
   font-size: 20px;

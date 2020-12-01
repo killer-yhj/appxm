@@ -22,4 +22,7 @@
     }
   }
 }
+.van-nav-bar .van-icon{
+    font-size: 25px;
+}
 </style>

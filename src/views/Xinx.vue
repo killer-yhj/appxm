@@ -46,8 +46,10 @@ export default {
         this.$dialog.alert({
           message: "选项不能为空！"
         });
-      }else{
-          path:'/home'
+      } else {
+        this.$router.push({
+          path: "/home"
+        });
       }
     }
   }
@@ -69,7 +71,7 @@ export default {
   top: 23px;
 }
 .box1 {
-  border-bottom: solid 2px #777;
+  border-bottom: solid 2px #f6f6f6;
 }
 .box2 {
   margin-top: 40px;
